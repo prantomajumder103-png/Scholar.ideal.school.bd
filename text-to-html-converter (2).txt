@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Codebeautify.org Text to HTML Converter</title>
+	</head>
+	<body>
+		<p>
+			<!DOCTYPE html>
+			<html lang="bn">
+				<head>
+					<meta charset="UTF-8">
+						<meta name="viewport" content="width=device-width, initial-scale=1.0">
+							<title>Scholar Ideal School | Official Website</title>
+							<!-- Google Fonts for Modern Typography -->
+							<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+								<style> 
+        :root { 
+            --primary: #0f766e; 
+            --primary-dark: #115e59; 
+            --secondary: #0f172a; 
+            --accent: #f59e0b; 
+            --bg-color: #f8fafc; 
+            --text-color: #334155; 
+            --white: #ffffff; 
+        } 
+ 
+        * { 
+            box-sizing: border-box; 
+            margin: 0; 
+            padding: 0; 
+        } 
+ 
+        body { 
+            font-family: 'Hind Siliguri', sans-serif; 
+            background-color: var(--bg-color); 
+            color: var(--text-color); 
+            line-height: 1.8; 
+        } 
+ 
+        /* Top Header / Hero Banner */ 
+        header { 
+            background: linear-gradient(135deg, var(--secondary), var(--primary-dark)); 
+            color: var(--white); 
+            padding: 40px 20px; 
+            text-align: center; 
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1); 
+        } 
+ 
+        header h1 { 
+            font-size: 2.5rem; 
+            font-weight: 700; 
+            letter-spacing: 0.5px; 
+            margin-bottom: 5px; 
+        } 
+ 
+        header p { 
+            font-size: 1.1rem; 
+            opacity: 0.9; 
+        } 
+ 
+        /* Navigation Bar */ 
+        nav { 
+            background: var(--white); 
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05); 
+            position: sticky; 
+            top: 0; 
+            z-index: 1000; 
+        } 
+ 
+        .nav-container { 
+            display: flex; 
+            justify-content: center; 
+            flex-wrap: wrap; 
+            max-width: 1100px; 
+            margin: auto; 
+        } 
+ 
+        nav a { 
+            color: var(--secondary); 
+            padding: 15px 20px; 
+            text-decoration: none; 
+            font-weight: 600; 
+            font-size: 1rem; 
+            transition: all 0.3s ease; 
+        } 
+ 
+        nav a:hover { 
+            color: var(--primary); 
+            background: #f1f5f9; 
+        } 
+ 
+        /* Main Container */ 
+        .container { 
+            max-width: 1000px; 
+            margin: 35px auto; 
+            padding: 0 20px; 
+        } 
+ 
+        /* Modern Card Sections */ 
+        section { 
+            background: var(--white); 
+            padding: 30px; 
+            margin-bottom: 30px; 
+            border-radius: 16px; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.03); 
+            border: 1px solid #e2e8f0; 
+            transition: transform 0.3s ease; 
+        } 
+ 
+        section h2, section h3 { 
+            color: var(--secondary); 
+            border-bottom: 3px solid var(--primary); 
+            padding-bottom: 10px; 
+            margin-bottom: 20px; 
+            font-size: 1.6rem; 
+        } 
+ 
+        /* Images Styling */ 
+        .school-banner-img img, .admission-banner img { 
+            width: 100%; 
+            max-height: 380px; 
+            object-fit: cover; 
+            border-radius: 12px; 
+            margin-bottom: 20px; 
+            box-shadow: 0 6px 15px rgba(0,0,0,0.08); 
+        } 
+ 
+        /* Stats Grid */ 
+        .stats-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
+            gap: 20px; 
+            text-align: center; 
+        } 
+ 
+        .stat-card { 
+            background: #f0fdf4; 
+            padding: 25px 20px; 
+            border-radius: 12px; 
+            border: 1px solid #bbf7d0; 
+            box-shadow: 0 4px 12px rgba(0,120,0,0.03); 
+        } 
+ 
+        .stat-card h3 { 
+            color: var(--primary); 
+            font-size: 2.2rem; 
+            border: none; 
+            margin: 0; 
+        } 
+ 
+        .stat-card p { 
+            margin-top: 5px; 
+            font-weight: 600; 
+            color: #475569; 
+            font-size: 1.05rem; 
+        } 
+ 
+        /* Principal Section */ 
+        .principal-flex { 
+            display: flex; 
+            align-items: center; 
+            gap: 25px; 
+            flex-wrap: wrap; 
+        } 
+ 
+        .principal-img { 
+            flex-shrink: 0; 
+            text-align: center; 
+        } 
+ 
+        .principal-img img { 
+            width: 160px; 
+            height: 190px; 
+            object-fit: cover; 
+            border-radius: 12px; 
+            border: 4px solid var(--primary); 
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1); 
+            display: block; 
+        } 
+ 
+        .principal-text { 
+            flex: 1; 
+            min-width: 250px; 
+        } 
+ 
+        .principal-text p { 
+            font-style: italic; 
+            color: #475569; 
+            font-size: 1.05rem; 
+            line-height: 1.8; 
+            margin: 0; 
+        } 
+ 
+        /* Notice Board */ 
+        .notice-board ul { 
+            padding-left: 20px; 
+        } 
+ 
+        .notice-board li { 
+            margin-bottom: 12px; 
+            color: #dc2626; 
+            font-weight: 600; 
+            font-size: 1.05rem; 
+        } 
+ 
+        /* Admission Section List */ 
+        .admission-section ul { 
+            padding-left: 20px; 
+            margin-top: 15px; 
+        } 
+ 
+        .admission-section li { 
+            margin-bottom: 10px; 
+            font-size: 1.05rem; 
+        } 
+ 
+        /* Footer */ 
+        footer { 
+            background: var(--secondary); 
+            color: var(--white); 
+            text-align: center; 
+            padding: 35px 20px; 
+            margin-top: 50px; 
+        } 
+ 
+        footer p { 
+            margin: 6px 0; 
+            opacity: 0.85; 
+            font-size: 1rem; 
+        } 
+ 
+        /* Responsive Mobile Fixes */ 
+        @media (max-width: 768px) { 
+            header h1 { 
+                font-size: 1.8rem; 
+            } 
+            .principal-flex { 
+                flex-direction: column; 
+                text-align: center; 
+            } 
+            .principal-img img { 
+                margin: 0 auto; 
+            } 
+        } 
+    </style>
+							</head>
+							<body>
+								<!-- Header / Banner -->
+								<header>
+									<h1>Scholar Ideal School</h1>
+									<p>নিউমুরিং, সিইপিজেড, চট্টগ্রাম | স্থাপিত: ২০২০</p>
+								</header>
+								<!-- Navigation Menu -->
+								<nav>
+									<div class="nav-container">
+										<a href="#">হোম</a>
+										<a href="#about">পরিচিতি</a>
+										<a href="#admission">ভর্তি তথ্য</a>
+										<a href="#principal">প্রধান শিক্ষক</a>
+										<a href="#notice">নোটিশ বোর্ড</a>
+									</div>
+								</nav>
+								<!-- Main Content Area -->
+								<div class="container">
+									<!-- Welcome & School Image -->
+									<section>
+										<h2>আমাদের ওয়েবসাইটে স্বাগতম</h2>
+										<div class="school-banner-img">
+											<img src="1794649466743.jpg" alt="Scholar Ideal School Building">
+											</div>
+											<p>
+												<strong>Scholar Ideal School</strong>-এ আপনাকে স্বাগতম। ২০২০ সাল থেকে নিউমুরিং, সিইপিজেড, চট্টগ্রামে অত্যন্ত সুনামের সাথে মানসম্মত শিক্ষা প্রদান করে আসছে এই প্রতিষ্ঠান। আধুনিক প্রযুক্তিনির্ভর ও নৈতিক মূল্যবোধসম্পন্ন প্রজন্ম গড়ে তোলাই আমাদের মূল লক্ষ্য।
+											</p>
+										</section>
+										<!-- Stats Section -->
+										<section id="about">
+											<h3>এক নজরে আমাদের প্রতিষ্ঠান</h3>
+											<div class="stats-grid">
+												<div class="stat-card">
+													<h3>২০২০</h3>
+													<p>প্রতিষ্ঠিত সাল</p>
+												</div>
+												<div class="stat-card">
+													<h3>৫০০+</h3>
+													<p>শিক্ষার্থী</p>
+												</div>
+												<div class="stat-card">
+													<h3>১৫+</h3>
+													<p>অভিজ্ঞ শিক্ষক</p>
+												</div>
+											</div>
+										</section>
+										<!-- Admission Section -->
+										<section id="admission" class="admission-section">
+											<h3>ভর্তি তথ্য ও কার্যক্রম</h3>
+											<div class="admission-banner">
+												<img src="1794649501688.jpg" alt="Admission Banner 2027">
+												</div>
+												<p>
+													<strong>২০২৭ শিক্ষাবর্ষের ভর্তি ফরম বিতরণ চলছে!</strong>
+												</p>
+												<ul>
+													<li>📝 ভর্তি ফরম বিতরণ শুরু: ১ অক্টোবর থেকে।</li>
+													<li>🏫 প্রাতিষ্ঠানিক ভর্তি কার্যক্রম শুরু: ১ নভেম্বর থেকে।</li>
+													<li>💡 বিস্তারিত তথ্যের জন্য সরাসরি বিদ্যালয় অফিসে যোগাযোগ করুন।</li>
+												</ul>
+											</section>
+											<!-- Principal Section -->
+											<section id="principal">
+												<h3>প্রধান শিক্ষক মহোদয়</h3>
+												<div class="principal-flex">
+													<div class="principal-img">
+														<img src="1794649535462.jpg" alt="Head Teacher">
+														</div>
+														<div class="principal-text">
+															<p>"সুশিক্ষায় গড়ে উঠুক আলোকিত ভবিষ্যৎ—এই প্রত্যয় নিয়ে আমাদের স্কুল পরিচালনা করা হচ্ছে। কোমলমতি শিশুদের আদর্শ মানুষ হিসেবে গড়ে তুলতে আমাদের শিক্ষকবৃন্দ ও পরিচালনা পর্ষদ সর্বদা বদ্ধপরিকর। আপনাদের সকলের সহযোগিতা আমাদের এগিয়ে চলার মূল শক্তি।"</p>
+														</div>
+													</div>
+												</section>
+												<!-- Notice Board -->
+												<section id="notice" class="notice-board">
+													<h3>জরুরি নোটিশ বোর্ড</h3>
+													<ul>
+														<li>📢 বার্ষিক পরীক্ষার রুটিন খুব শীঘ্রই প্রকাশিত হবে।</li>
+														<li>📢 আগামী বৃহস্পতিবার বিশেষ ক্লাস ও অভিভাবক সভা অনুষ্ঠিত হবে।</li>
+														<li>📢 মাসিক ফি পরিশোধের শেষ তারিখ চলতি মাসের ১৫ তারিখ।</li>
+													</ul>
+												</section>
+											</div>
+											<!-- Footer -->
+											<footer>
+												<p>
+													<strong>Scholar Ideal School</strong>
+												</p>
+												<p>ঠিকانه: নিউমুরিং, সিইপিজেড, চট্টগ্রাম | ইমেইল: info@scholaridealschool.edu.bd</p>
+												<p>&copy; ২০২৬ সর্বস্বত্ব সংরক্ষিত।</p>
+											</footer>
+										</body>
+									</html>
+								</p>
+							</body>
+						</html>
